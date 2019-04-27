@@ -1,0 +1,204 @@
+<html>
+  <head>
+     <title>Kickstarter Prediction Demo</title>
+     <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+
+    <div class="container"><br>
+      <center>
+        <h2>Kickstarter Prediction Demo</h2>
+      </center>
+    </div>
+
+    <div class=container"><br>
+    <div class="row align-items-center justify-content-center">
+    <div class="col-md-9">
+      <form  action="" method="post" role="form">
+        {{ form.csrf }}
+        <div class="form-group">
+            <h4>Enter Your Kickstarter Details:</h4>
+          <label for="title">Project Title:</label>
+          <input type="text" class="form-control" id="title" name="title" placeholder="Name?">
+            <br>
+          <label for="description">Description:</label>
+          <input type="text" class="form-control" id="description" name="description" placeholder="Description ?">
+	        <br>
+            <label for="category">Select Category: </label>
+            <select name="category">
+                <option value="0">Art</option>
+                <option value="1">Comics</option>
+                <option value="2">Dance</option>
+                <option value="3">Design</option>
+                <option value="4">Fashion</option>
+                <option value="5">Film and Video</option>
+                <option value="6">Food</option>
+                <option value="7">Games</option>
+                <option value="8">Music</option>
+                <option value="9">Photography</option>
+                <option value="10">Publishing</option>
+                <option value="11">Technology</option>
+                <option value="12">Theater</option>
+            </select>
+            </br>
+            <label for="subcategory">Select Sub-Category: </label>
+            <select name="subcategory">
+                <option value="0">Animation</option>
+                <option value="1">Art</option>
+                <option value="2">Art Book</option>
+                <option value="3">Board and Card Games</option>
+                <option value="4">Children Book</option>
+                <option value="5">Classical Music</option>
+                <option value="6">Comics</option>
+                <option value="7">Conceptual Art</option>
+                <option value="8">Country and FOld</option>
+                <option value="9">Crafts</option>
+                <option value="10">Dance</option>
+                <option value="11">Design</option>
+                <option value="12">Digital Art</option>
+                <option value="13">Documentary</option>
+                <option value="14">Electronic Music</option>
+                <option value="15">Fashion</option>
+                <option value="16">Fiction</option>
+                <option value="17">Film and Video</option>
+                <option value="18">Food</option>
+                <option value="19">Games</option>
+                <option value="20">Graphic Design</option>
+                <option value="21">Hip-Hop</option>
+                <option value="22">Illustration</option>
+                <option value="23">Indie Rock</option>
+                <option value="24">Jazz</option>
+                <option value="25">Journalism</option>
+                <option value="26">Misxed Media</option>
+                <option value="27">Music</option>
+                <option value="28">Narrative Film</option>
+                <option value="29">Non Fiction</option>
+                <option value="30">Open Hardware</option>
+                <option value="31">Open Software</option>
+                <option value="32">Painting</option>
+                <option value="33">Performance Arts</option>
+                <option value="34">Periodical</option>
+                <option value="35">Photography</option>
+                <option value="36">Poetry</option>
+                <option value="37">Pop</option>
+                <option value="38">Product Design</option>
+                <option value="39">Public Art</option>
+                <option value="40">Publishing</option>
+                <option value="41">Rock</option>
+                <option value="42">Sculpture</option>
+                <option value="43">Short Film</option>
+                <option value="44">Technology</option>
+                <option value="45">Theater</option>
+                <option value="46">Video Games</option>
+                <option value="47">Web Series</option>
+                <option value="48">World Music</option>
+            </select>
+            </br>
+            <label for="state">Select State: </label>
+            <select name="state">
+                <option value="0">AK</option>
+                <option value="1">AL</option>
+                <option value="2">AR</option>
+                <option value="3">AZ</option>
+                <option value="4">CA</option>
+                <option value="5">CO</option>
+                <option value="6">CT</option>
+                <option value="7">DC</option>
+                <option value="8">DE</option>
+                <option value="9">FL</option>
+                <option value="10">GA</option>
+                <option value="11">HI</option>
+                <option value="12">IA</option>
+                <option value="13">ID</option>
+                <option value="14">IL</option>
+                <option value="15">IN</option>
+                <option value="16">KS</option>
+                <option value="17">KY</option>
+                <option value="18">LA</option>
+                <option value="19">MA</option>
+                <option value="20">MD</option>
+                <option value="21">ME</option>
+                <option value="22">MI</option>
+                <option value="23">MN</option>
+                <option value="24">MO</option>
+                <option value="25">MS</option>
+                <option value="26">MT</option>
+                <option value="28">NC</option>
+                <option value="29">ND</option>
+                <option value="30">NE</option>
+                <option value="31">NH</option>
+                <option value="32">NJ</option>
+                <option value="33">NM</option>
+                <option value="34">NV</option>
+                <option value="35">NY</option>
+                <option value="36">OH</option>
+                <option value="37">OK</option>
+                <option value="38">OR</option>
+                <option value="39">PA</option>
+                <option value="40">RI</option>
+                <option value="41">SC</option>
+                <option value="42">SD</option>
+                <option value="43">TN</option>
+                <option value="44">TX</option>
+                <option value="45">UT</option>
+                <option value="46">VA</option>
+                <option value="47">VT</option>
+                <option value="48">WA</option>
+                <option value="49">WI</option>
+                <option value="50">WV</option>
+                <option value="51">WY</option>
+            </select>
+            </br>
+            <label for="goal">Goal(Enter as number without commas):</label>
+	  <input type="text" class="form-control" id="goal" name="goal" placeholder="Your goal">
+	    <br>
+            <label for="updates">Updates(From 0-100 only):</label>
+	  <input type="text" class="form-control" id="updates" name="updates" placeholder="Your updates">
+	    <br>
+            <label for="duration">Duration(Enter in days):</label>
+	  <input type="text" class="form-control" id="duration" name="duration" placeholder="Your duration">
+            <br>
+	     <label for="level">Enter Number of Levels(Max 15):</label>
+	  <input type="text" class="form-control" id="level" name="level" placeholder="Enter the number of levels">
+	    <br>
+
+            <h4>Enter Your Details:</h4>
+           <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+
+        <label for="email">Email:</label>
+	  <input type="text" class="form-control" id="email" name="email" placeholder="Your email address.">
+
+        <label for="location">State:</label>
+          <input type="text" class="form-control" id="location" name="location" placeholder="Your address/state">
+
+        <center>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </center>
+      </form>
+      <br>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+        {% for message in messages %}
+            {% if "Error" not in message[1]: %}
+                <div class="alert alert-info">
+                <strong>Message:</strong> {{ message[1] }}
+                </div>
+            {% endif %}
+            {% if "Error" in message[1]: %}
+                <div class="alert alert-danger">
+                <strong>Error: </strong> {{ message[1] }}
+                </div>
+            {% endif %}
+        {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
+    <br>
+    </div>
+    </div>
+  </body>
+</html>
