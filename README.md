@@ -3,9 +3,9 @@ Kickstarter is one of the most popular crowdfunding platform on the internet. Ev
 
 The aim of this project is to predict the success or failure of a Kickstarter campaign at launch time. The aim of this project was to predict the success or failure of a Kickstarter campaign at launch time. Following steps were performed:
 
-Pre-processing of the data set from Kickstarter
-Exploratory Data Ananlysis (EDA)
-Machine Learning Algorithms used: 
+1. Pre-processing of the data set from Kickstarter
+2. Exploratory Data Ananlysis (EDA)
+3. Machine Learning Algorithms used: 
 
   a. Random Forest 
 
