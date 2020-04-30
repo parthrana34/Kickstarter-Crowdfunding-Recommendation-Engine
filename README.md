@@ -6,11 +6,11 @@ The aim of this project is to predict the success or failure of a Kickstarter ca
 1. Pre-processing of the data set from Kickstarter
 2. Exploratory Data Ananlysis (EDA)
 3. Machine Learning Algorithms used: 
-    a. Random Forest 
-    b. Logistic Regression 
-    c. k-Nearest Neighbour (KNN)
+   > a. Random Forest 
+   > b. Logistic Regression 
+   > c. k-Nearest Neighbour (KNN)
     
-    
+![alt text](https://github.com/parthrana34/Kickstarter-Crowdfunding-Recommendation-Engine/blob/master/result.png "Logo Title Text 1")
 
 Conclusion: 
 
