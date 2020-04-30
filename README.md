@@ -1,6 +1,6 @@
 # Kickstarter-Crowdfunding-Recommendation-Engine
 
-### Introduction
+### Introduction:
 
 Kickstarter is one of the most popular crowdfunding platform on the internet. Everything from film, games, and music to art, design, and technology. Kickstarter is full of ambitious, innovative, and imaginative projects that are brought to life through the direct support of others.
 
@@ -8,7 +8,7 @@ Kickstarter is one of the most popular crowdfunding platform on the internet. Ev
 
 The aim of this project is to predict the success or failure of a Kickstarter campaign at launch time. The aim of this project was to predict the success or failure of a Kickstarter campaign at launch time. Following steps were performed:
 
-### Content
+### Content:
 
 1. Pre-processing of the data set from Kickstarter
 2. Exploratory Data Ananlysis (EDA)
